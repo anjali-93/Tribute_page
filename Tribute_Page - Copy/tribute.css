@@ -1,0 +1,179 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('https://i.gifer.com/2QrM.gif');
+    background-repeat: repeat;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: 45px;
+    color: white;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    /* color: rgba(48, 47, 47, 0.938); */
+    color: white;
+    padding: 25px;
+}
+
+
+a:hover {
+    color: blueviolet;
+}
+
+.image,
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+}
+
+.quote {
+    /* width: 750px; */
+    display: grid;
+
+    margin: auto;
+    margin-bottom: 25px;
+
+    background-color: rgb(199, 195, 189);
+    width: 80%;
+    border: 2px solid rgb(199, 195, 189);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.content img {
+    width: 300px;
+    height: 100%;
+}
+
+#introduction p {
+    letter-spacing: 0.9px;
+    padding: 0 10px;
+}
+
+#introduction {
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    margin: 0 45px;
+    padding: 0 10px;
+}
+
+#timeline ul {
+    letter-spacing: 0.9px;
+    padding: 0 40px;
+
+}
+
+#timeline li {
+    /* padding: 0 3ppx ; */
+    margin: 50px;
+
+}
+
+#timeline {
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    margin: 0 45px;
+    padding: 20px;
+
+}
+
+@media screen and (max-width: 600px) {
+    #timeline {
+        padding: 1px;
+        margin-top: 9px;
+    }
+
+    #timeline li {
+        padding: 0px;
+        margin: 15px;
+    }
+}
+
+#honors ul {
+    letter-spacing: 0.9px;
+    padding: 0 40px;
+    margin: 0 80px;
+
+}
+
+#honors {
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    margin: 0 45px;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #honors {
+        padding: 1px;
+        margin-top: 9px;
+    }
+
+    #honors ul {
+        margin: 20px;
+    }
+
+    #honors li {
+
+        margin: 15px;
+    }
+}
+
+#books ol {
+    letter-spacing: 0.5px;
+    padding: 0 40px;
+    margin: 0 80px;
+}
+
+#books li {
+    margin: 5px;
+    padding: 2px;
+}
+
+#books p {
+    letter-spacing: 0.9px;
+    padding: 12px;
+}
+
+#books {
+    border: 2px solid;
+    background-color: black;
+    color: white;
+    margin: 0 45px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #books {
+        padding: 1px;
+        margin-top: 9px;
+    }
+
+    #books ol {
+        padding: 3px;
+        margin: 20px;
+    }
+
+    #books li {
+        margin: 15px;
+    }
+}
